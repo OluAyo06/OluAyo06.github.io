@@ -1,11 +1,268 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Data Science Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLUFISAYO AYOMIDE EMMANUEL – Data Science Portfolio</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f7fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem 1rem;
+        }
+        header {
+            text-align: center;
+            padding: 3rem 1rem 2rem;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.25rem;
+            color: #1a1a2e;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #1a1a2e;
+            margin-bottom: 1rem;
+        }
+        .social-links {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #1a1a2e;
+            font-weight: 500;
+            border: 1px solid #1a1a2e;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            transition: all 0.2s;
+        }
+        .social-links a:hover {
+            background: #1a1a2e;
+            color: white;
+        }
+        section {
+            margin: 2.5rem 0;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #1a1a2e;
+            border-bottom: 2px solid #1a1a2e;
+            padding-bottom: 0.3rem;
+            margin-bottom: 1.2rem;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+        .skill-tag {
+            background: #1a1a2e;
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            display: flex;
+            gap: 1.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .project-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .project-info {
+            flex: 1;
+            min-width: 200px;
+        }
+        .project-info h3 {
+            margin-bottom: 0.3rem;
+        }
+        .project-links {
+            margin-top: 0.6rem;
+        }
+        .project-links a {
+            margin-right: 1rem;
+            font-weight: 500;
+            color: #1a1a2e;
+            text-decoration: none;
+            border-bottom: 2px solid transparent;
+        }
+        .project-links a:hover {
+            border-bottom-color: #1a1a2e;
+        }
+        .about p {
+            margin-bottom: 1rem;
+        }
+        footer {
+            text-align: center;
+            color: #777;
+            font-size: 0.9rem;
+            margin-top: 3rem;
+            padding: 1.5rem 0;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hi, I'm Olufisayo Ayomide Emmanuel</h1>
-  <p>Data Scientist | Machine Learning | Data Viz</p>
-  <p>Check out my <a href="https://github.com/your-username">projects</a>.</p>
+    <div class="container">
+        <header>
+            <!-- Add your photo: replace with a URL or remove the <img> tag -->
+           
+            <h1>OLUFISAYO AYOMIDE EMMANUEL</h1>
+            <p>Data Scientist | Machine Learning </p>
+            <div class="social-links">
+                <a href="https://github.com/OluAyo06" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/olufisayo-ayomide-33416b2a3" target="_blank">LinkedIn</a>
+                <a href="mailto:olufisayoayo06@gmail.com">Email</a>
+                <a href="YOUR_RESUME_LINK" target="_blank">Resume (PDF)</a>
+            </div>
+        </header>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>
+                I’m a data scientist with 3 years of experience turning messy data into actionable insights. 
+                I specialize in building predictive models, creating interactive dashboards, and communicating 
+                results to both technical and non‑technical stakeholders. I love working on projects that 
+                sit at the intersection of data, product, and strategy.
+            </p>
+            <p>
+                When I’m not crunching numbers, you can find me basket ball and sound mixing.
+            </p>
+        </section>
+
+        <section class="skills">
+            <h2>Skills &amp; Tools</h2>
+            <div class="skills-grid">
+                <!-- Add/remove tags as needed -->
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Machine Learning</span>
+                <span class="skill-tag">Pandas / NumPy</span>
+                <span class="skill-tag">Scikit‑learn</span>
+                <span class="skill-tag">AI Automation</span>
+                <span class="skill-tag">Data Visualization</span>
+                <span class="skill-tag">Prompt Engeering</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Statistical Modeling</span>
+                <span class="skill-tag">A/B Testing</span>
+              
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Featured Projects</h2>
+
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Satellite-Driven -PM2.5-Esrimation for African cities</h3>
+                    <p>
+                        Air pollution is a major global health threat, with sub-Saharan Africa experiencing the most severe impacts due to limited monitoring systems and rapid urbanization. 
+                      This project aims to close these data gaps by using satellite-derived information and machine learning to estimate PM2.5 pollution levels
+                      across eight key African cities
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/OluAyo06/Satellite-Driven-PM2.5-Estimation-for-African-Cities" target="_blank">Code</a>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+  
+                <div class="project-info">
+                    <h3>DIGICOW</h3>
+                    <p>
+                       DigiCow trains smallholder farmers using digital tools and extension services, but adoption of improved practices remains uneven. This challenge aims to predict the probability that a farmer
+                      adopts a practice within 7, 90, and 120 days after training, using only information available at the time of training to improve support strategies
+                    <div class="project-links">
+                        <a href="https://github.com/OluAyo06/DigiCow" target="_blank">Code</a>
+  
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                
+                <div class="project-info">
+                    <h3> SPE </h3></h3>
+                    <p>
+                      This project focuses on predicting oil, gas, and water production from well operational and reservoir-related parameters using machine learning. 
+                      The notebook was developed as part of an SPE DATHON challenge, where the objective is to analyze wellbore conditions and production data to build accurate predictive models.
+                      The project follows a full end-to-end data science workflow; exploratory data analysis, visualization, preprocessing, encoding, feature engineering, model training, evaluation, optimization, and deployment preparation.
+
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/OluAyo06/SPE" target="_blank">Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+
+
+           <!-- PROJECT 4 -->
+            <div class="project-card">
+                
+                <div class="project-info">
+                    <h3> LANDSLIDE </h3></h3>
+                    <p>
+                      This project focuses on predicting oil, gas, and water production from well operational and reservoir-related parameters using machine learning. 
+                      The notebook was developed as part of an SPE DATHON challenge, where the objective is to analyze wellbore conditions and production data to build accurate predictive models.
+                      The project follows a full end-to-end data science workflow; exploratory data analysis, visualization, preprocessing, encoding, feature engineering, model training, evaluation, optimization, and deployment preparation.
+                      This project focuses on predicting landslide susceptibility using geospatial, environmental, and terrain-related variables from the Zindi dataset. The goal is to build a machine learning model that classifies areas based on their likelihood of experiencing a landslide. 
+                      The overall objective is to accurately classify areas based on their landslide risk potential.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/OluAyo06/Landslide" target="_blank">Code</a>
+      
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>
+                I’m always open to discussing new opportunities, collaborations, or 
+                data‑related questions. The best way to reach me is via 
+                <a href="mailto:olufisayoayo06@gmail.com">email</a> or 
+                <a href="https://linkedin.com/in/olufisayo-ayomide-33416b2a3" target="_blank">LinkedIn</a>.
+            </p>
+        </section>
+
+        <footer>
+            &copy; 2026 YOUR NAME · Built with GitHub Pages
+        </footer>
+    </div>
 </body>
 </html>
